@@ -10,6 +10,9 @@
     <!-- bootstartp link  -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
+    <!-- swipper link -->
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+
     <!-- fontawesome link -->
     <link rel="stylesheet" href="css/all.min.css" />
 
@@ -68,7 +71,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-6">
               <div class="header-search">
                 <form>
                   <input type="text" placeholder="I am looking for.." />
@@ -78,7 +81,7 @@
                 </form>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
               <div class="middle-contcat-part">
                 <a href="">
                   <div class="middle-contact d-flex gap-2 align-items-center">
@@ -250,10 +253,69 @@
       <!-- bottom header end -->
     </header>
     <!-- header end  -->
+    <main>
+      <!-- hero part  -->
+      <section class="hero-part">
+        <div class="container-fluid">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="hero-image">
+                  <img
+                    src="images/banner-1.webp"
+                    alt="banner-1"
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="hero-content-one">
+                  <h1>Eat Organic</h1>
+                  <h4>High-quality fruits and veggies every one will love</h4>
+                  <button class="btnHero">Shop Now</button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hero-image">
+                  <img
+                    src="images/banner-2.webp"
+                    alt="banner-2"
+                    class="img-fluid w-100"
+                  />
+                </div>
+                <div class="hero-content-two text-center">
+                  <h1>Eat Organic</h1>
+                  <h4>High-quality fruits and veggies every one will love</h4>
+                  <button class="btnHero">Shop Now</button>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+          </div>
+        </div>
+      </section>
+      <!-- hero part end  -->
+    </main>
     <!-- jquery link -->
     <script src="js/jquery.min.js"></script>
     <!-- bootstrap js link  -->
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiper js link  -->
+    <script src="js/swiper-bundle.min.js"></script>
     <!-- custom js link  -->
     <script src="js/custom.js"></script>
   </body>
