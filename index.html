@@ -3,7 +3,258 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Organic Shop</title>
+    <!-- //site icon  -->
+    <link rel="shortcut icon" href="images/Favicon.svg" type="image/x-icon" />
+
+    <!-- bootstartp link  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- responsive css link  -->
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- header start  -->
+    <header>
+      <!-- top header  -->
+      <div class="top-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="top-header-left">
+                <p>Free delivery to your door for orders over $100.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="top-header-right">
+                <span>Street Address 2571 Oakridge</span>
+                <!-- select language -->
+                <div class="select-language">
+                  <select>
+                    <option selected>English</option>
+                    <option>Spanish</option>
+                    <option>French</option>
+                    <option>German</option>
+                  </select>
+                </div>
+                <!-- select language end  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- top header end  -->
+
+      <!-- middle header -->
+      <div class="middle-header">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-1">
+              <div class="header-logo">
+                <a href="index.html">
+                  <img
+                    src="images/milano-logo.webp"
+                    alt="logo"
+                    class="img-fluid"
+                    height="22"
+                    width="90"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="header-search">
+                <form>
+                  <input type="text" placeholder="I am looking for.." />
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="middle-contcat-part">
+                <a href="">
+                  <div class="middle-contact d-flex gap-2 align-items-center">
+                    <div class="contact-icon">
+                      <i class="fa-solid fas fa-headphones"></i>
+                    </div>
+                    <div class="contact-info">
+                      <span>Need any help?</span>
+                      <p>(+1) 234 567 890</p>
+                    </div>
+                  </div>
+                </a>
+                <div class="middle-contact login-part">
+                  <a href="">
+                    <div class="middle-contact d-flex gap-2 align-items-center">
+                      <div class="contact-icon">
+                        <i class="fa-solid fas fa-user"></i>
+                      </div>
+                      <div class="contact-info">
+                        <span>Login</span>
+                        <p>Account</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="middle-contact wishlist">
+                  <a href=""><i class="fa-solid fa-heart"></i></a>
+                  <span class="wishNumber">0</span>
+                </div>
+                <div class="middle-contact cart">
+                  <a href="">
+                    <div class="middle-contact d-flex gap-2 align-items-center">
+                      <div class="contact-icon wishlist">
+                        <i class="fa-solid fas fa-cart-shopping"></i>
+                        <span class="wishNumber">0</span>
+                      </div>
+                      <div class="contact-info">
+                        <span>Cart</span>
+                        <p>$0</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- middle header end -->
+
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg menuBar">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help Center</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Compare</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- bottom header -->
+      <div class="bottom-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="services-part d-flex gap-2 align-items-center">
+                <div class="service-icon">
+                  <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="service-info">
+                  <span>Free Shipping</span>
+                  <p>On all orders over $100</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="services-part d-flex gap-2 align-items-center">
+                <div class="service-icon">
+                  <i class="fa-solid fa-tag"></i>
+                </div>
+                <div class="service-info">
+                  <span>Best prices</span>
+                  <p>You always get the best</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="services-part d-flex gap-2 align-items-center">
+                <div class="service-icon">
+                  <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                <div class="service-info">
+                  <span>Free Return</span>
+                  <p>Free return within 15 days</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="services-part d-flex gap-2 align-items-center">
+                <div class="service-icon">
+                  <i class="fa-solid fa-headphones"></i>
+                </div>
+                <div class="service-info">
+                  <span>Support Online</span>
+                  <p>24/7 customer support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bottom header end -->
+    </header>
+    <!-- header end  -->
+    <!-- jquery link -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap js link  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js link  -->
+    <script src="js/custom.js"></script>
+  </body>
 </html>

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+input,
+label,
+textarea,
+select,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.top-header {
+  background-color: #008031;
+  padding: 10px 0;
+}
+
+.top-header-left p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.top-header-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-header-right span {
+  color: #fff;
+  font-size: 14px;
+}
+.top-header-right select option {
+  background-color: #008031;
+  color: #fff;
+}
+.top-header-right select {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.middle-header {
+  background: #f5ebd2;
+  padding: 20px 0px;
+}
+
+.header-search {
+  position: relative;
+}
+
+.header-search form {
+  position: relative;
+}
+
+.header-search form input {
+  border: none;
+  padding: 10px 10px 10px 40px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  font-size: 15px;
+  font-weight: 500;
+  color: #008031;
+}
+
+.header-search form input::placeholder {
+  color: #008031;
+}
+
+.header-search form input:focus {
+  border: 1px solid #008031;
+}
+
+.header-search form button {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  color: #008031;
+  cursor: pointer;
+}
+
+.middle-contcat-part {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+.wishlist a i,
+.middle-contact .contact-icon i {
+  color: #111111;
+  font-size: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.middle-contact {
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+.middle-contact:hover .contact-info p,
+.middle-contact:hover .contact-info span,
+.middle-contact:hover .contact-icon i {
+  transition: all 0.5s ease-in-out;
+  color: #d0473e;
+}
+
+.contact-info span {
+  font-size: 12px;
+  font-weight: 500;
+  color: #111111;
+  transition: all 0.5s ease-in-out;
+}
+
+.contact-info p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+  transition: all 0.5s ease-in-out;
+}
+
+.wishlist {
+  position: relative;
+}
+.wishNumber {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -5px;
+  right: -5px;
+  background-color: #d0473e;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.menuBar {
+  background-color: #008031;
+}
+
+.menuBar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+  padding: 10px 25px;
+  position: relative;
+}
+
+.menuBar .navbar-nav .nav-item .nav-link:hover {
+  color: #eecc0d;
+  transition: all 0.5s ease-in-out;
+}
+
+.bottom-header {
+  padding: 20px 0px;
+  background-color: #f5ebd2;
+}
+
+.services-part .service-icon i {
+  font-size: 30px;
+  color: #111111;
+}
+
+.services-part .service-info span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+  transition: all 0.5s ease-in-out;
+}
+
+.services-part .service-info p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #111111;
+  transition: all 0.5s ease-in-out;
+}
