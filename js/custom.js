@@ -171,3 +171,24 @@ function startReusableCountdowns() {
 
 // ফাংশনটি কল করা হলো
 startReusableCountdowns();
+
+//amazing slider
+const amazingSwiper = new Swiper('.amazing-part', {
+  direction: 'horizontal',
+  loop: true,
+  //   effect: 'fade',
+  //   fadeEffect: {
+  //     crossFade: true,
+  //   },
+
+  // Pagination নিশ্চিত করুন
+  pagination: {
+    el: '.amazing-part .swiper-pagination', // সঠিক ক্লাস দেওয়া হয়েছে
+    clickable: true, // ডটে ক্লিক করলে স্লাইড পরিবর্তন হবে
+  },
+
+  navigation: {
+    nextEl: '.amazing-part .swiper-button-next',
+    prevEl: '.amazing-part .swiper-button-prev',
+  },
+});

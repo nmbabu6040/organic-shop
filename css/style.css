@@ -1149,3 +1149,53 @@ svg {
   border-color: #f10404;
   transform: translateY(-10px);
 }
+
+/* exclusive-offer-part start  */
+.amazing-product-offer,
+.exclusive-offer-part {
+  padding: 50px 0px;
+  background: #f5ebd2;
+}
+
+.amazing-part .swiper-button-next,
+.amazing-part .swiper-button-prev {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #222;
+  color: #111111;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.amazing-part .swiper-button-next:hover,
+.amazing-part .swiper-button-prev:hover {
+  background-color: #111111;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  border-color: #111111;
+}
+
+.amazing-part:hover .swiper-button-next {
+  opacity: 1;
+  transform: translateX(-20px);
+}
+.amazing-part:hover .swiper-button-prev {
+  opacity: 1;
+  transform: translateX(20px);
+}
+
+.amazing-part ::slotted(svg),
+svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform-origin: center;
+  fill: currentColor;
+  pointer-events: none;
+  display: none;
+}
