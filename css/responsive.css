@@ -1,0 +1,182 @@
+/* 320px device  */
+@media (max-width: 320px) {
+  .best-offer-item-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .best-offer-item-info h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .best-offer-item-info .shop-btn {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+
+  .gallery-main {
+    height: 220px;
+  }
+
+  .gallery-thumbs {
+    height: 60px;
+  }
+
+  .product-title {
+    font-size: 1.2rem;
+  }
+
+  .timer-box {
+    gap: 6px;
+  }
+
+  .timing-item {
+    min-width: 42px;
+    padding: 4px 6px;
+  }
+
+  .timing-item .time {
+    font-size: 14px;
+  }
+
+  .timing-item .time-title {
+    font-size: 10px;
+  }
+
+  .product-price .discount-price {
+    font-size: 18px;
+  }
+
+  .product-price .original-price {
+    font-size: 14px;
+  }
+  .product-title {
+    font-size: 20px;
+  }
+
+  .timing-box {
+    max-width: 100%;
+  }
+
+  .product-store-title-part p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .product-store-content h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .stor-timer-box {
+    gap: 5px;
+    font-size: 16px;
+  }
+
+  .timing-item .time {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .best-sell-item-card .amazing-image {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .best-sell-item-card .amazing-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .newsletter-box h4 {
+    font-size: 18px;
+  }
+
+  .newsletter-box form button {
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .newsletter-box form input {
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+  .hero-content-two h1,
+  .hero-content-one h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .gallery-main {
+    height: 280px;
+  }
+
+  .gallery-thumbs {
+    height: 70px;
+  }
+
+  .product-title {
+    font-size: 1.4rem;
+  }
+
+  .timing-item {
+    min-width: 48px;
+    padding: 6px 8px;
+  }
+
+  .timing-item .time {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .timing-item .time-title {
+    font-size: 11px;
+    margin-bottom: 0;
+  }
+
+  .compareBox {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+/* 1. Medium Devices (Tablets, 768px to 991px) */
+@media (max-width: 991px) {
+  .single-product-content-part {
+    margin-top: 30px;
+  }
+}
+
+/* 2. Small Devices / Tablets (768px Breakpoint) */
+@media (max-width: 768px) {
+  .product-single-gallery {
+    flex-direction: column-reverse; /* থাম্বনেইল নিচে এবং বড় ইমেজ উপরে থাকবে */
+  }
+
+  .gallery-main {
+    width: 100%;
+    height: 350px;
+  }
+
+  .gallery-thumbs {
+    width: 100%;
+    height: 80px; /* হরাইজন্টাল থাম্বনেইল */
+  }
+
+  /* Quantity, Cart and Wishlist Buttons Alignment */
+  .product-quantity,
+  .product-add-to-cart,
+  .compareBox {
+    margin-bottom: 15px;
+  }
+
+  .cart-btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+}

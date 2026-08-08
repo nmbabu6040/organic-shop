@@ -108,10 +108,12 @@ const galleryThumbs = new Swiper('.gallery-thumbs', {
     0: {
       direction: 'horizontal',
       slidesPerView: 4,
+      spaceBetween: 8,
     },
     768: {
       direction: 'vertical',
       slidesPerView: 4,
+      spaceBetween: 10,
     },
   },
 });
@@ -221,7 +223,7 @@ const testimonialSwiper = new Swiper('.testimonial-swiper', {
       slidesPerView: 2, // ট্যাবলেট
       spaceBetween: 20,
     },
-    1024: {
+    992: {
       slidesPerView: 3, // ছোট ল্যাপটপ/ডেস্কটপ
       spaceBetween: 25,
     },
