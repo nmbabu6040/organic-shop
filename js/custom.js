@@ -192,3 +192,64 @@ const amazingSwiper = new Swiper('.amazing-part', {
     prevEl: '.amazing-part .swiper-button-prev',
   },
 });
+
+// Testimonial Swiper
+const testimonialSwiper = new Swiper('.testimonial-swiper', {
+  slidesPerView: 1, // মোবাইলে ১টি প্রোডাক্ট দেখাবে
+  spaceBetween: 20, // প্রোডাক্টের মাঝে ২০px গ্যাপ থাকবে
+  loop: true,
+
+  // অটো প্লে (ইচ্ছা হলে চালু রাখতে পারেন)
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+
+  // নেভিগেশন বাটন
+  navigation: {
+    nextEl: '.testimonial-swiper .swiper-button-next',
+    prevEl: '.testimonial-swiper .swiper-button-prev',
+  },
+
+  // বিভিন্ন স্ক্রিন সাইজের জন্য কাস্টম সংখ্যা (Responsive Breakpoints)
+  breakpoints: {
+    576: {
+      slidesPerView: 1, // স্মল স্ক্রিন (যেমন বড় মোবাইল)
+      spaceBetween: 15,
+    },
+    768: {
+      slidesPerView: 2, // ট্যাবলেট
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3, // ছোট ল্যাপটপ/ডেস্কটপ
+      spaceBetween: 25,
+    },
+    1200: {
+      slidesPerView: 3, // বড় স্ক্রিন
+      spaceBetween: 30,
+    },
+  },
+});
+
+//scroll to top button
+const scrollTop = document.querySelector('.scrollTop');
+
+// ১. নির্দিষ্ট দূরত্বের পর বাটন দেখানো/লুকানো
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 100) {
+    scrollTop.classList.add('active');
+  } else {
+    scrollTop.classList.remove('active');
+  }
+});
+
+// ২. বাটনে ক্লিক করলে স্মুথলি উপরে যাওয়া
+scrollTop.addEventListener('click', (e) => {
+  e.preventDefault(); // ডিফল্ট লাফ দেওয়া বন্ধ করবে
+
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth', // এটি স্মুথ অ্যানিমেশন নিশ্চিত করবে
+  });
+});
